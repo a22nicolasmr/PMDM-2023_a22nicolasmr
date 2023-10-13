@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UD02_3Layouts</string>
+    <string name="name">Juan Pérez</string>
+    <string name="number">666666666</string>
+    <string name="boton">Llamar</string>
+    <string name="llamando">Llamando a Juan Pérez</string>
+</resources>
