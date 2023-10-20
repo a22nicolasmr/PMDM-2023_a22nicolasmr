@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_grapht"
+    app:startDestination="@id/welcomeFragment2">
+    <fragment
+        android:id="@+id/welcomeFragment2"
+        android:name="com.example.secretapp222.WelcomeFragment"
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment2_to_messageFragment2"
+            app:destination="@id/messageFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/encryptFragment2"
+        android:name="com.example.secretapp222.EncryptFragment"
+        android:label="EncryptFragment" >
+        <argument
+            android:name="mensaje"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment2"
+        android:name="com.example.secretapp222.MessageFragment"
+        android:label="MessageFragment" >
+        <action
+            android:id="@+id/action_messageFragment2_to_encryptFragment2"
+            app:destination="@id/encryptFragment2" />
+    </fragment>
+</navigation>

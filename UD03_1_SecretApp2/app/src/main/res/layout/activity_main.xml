@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.ud03_1_secretapp2.WelcomeFragment"
+        android:padding="16dp"
+        />
+    <androidx.fragment.app.FragmentContainerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_container_view_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.ud03_1_secretapp2.WelcomeFragment"
+        android:padding="16dp"
+        />
+</LinearLayout>

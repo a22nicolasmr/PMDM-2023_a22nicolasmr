@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/grafo">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafo"
+    app:startDestination="@id/welcomeFragment">
 
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.ud03_1_secretapp.WelcomeFragment"
+        android:label="WelcomeFragment" />
+    <fragment
+        android:id="@+id/fragmentMessage"
+        android:name="com.example.ud03_1_secretapp.MessageFragment"
+        android:label="FragmentMessage" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.ud03_1_secretapp.MainActivity"
+        android:label="fragment_encrypt"
+        tools:layout="@layout/fragment_encrypt" />
 </navigation>
