@@ -29,7 +29,11 @@ class EncryptFragment : Fragment() {
         return  view
     }
     fun cifrado( mensaje:String)=mensaje.map{
+        if(it.isLetter()){
+            it.uppercaseChar().code.minus('A'.code).plus(3).mod(26).plus('A'.code).toChar()
+        }else{
 
-    }
+        }
+    }.joinToString ()
 
 }
