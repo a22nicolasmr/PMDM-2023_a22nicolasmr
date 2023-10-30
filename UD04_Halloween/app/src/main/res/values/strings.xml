@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UD04_Halloween</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="IntroduceNombre">Introduce tu nombre</string>
+    <string name="IntroduceNombreAqui">Introduce tu nombre aqui</string>
+    <string name="boton">Siguiente</string>
+    <string name="titulo">Selecciona una temática</string>
+    <string name="house">Casa encantada</string>
+</resources>
